@@ -14,12 +14,11 @@ body{
   color:var(--text);
   font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
   font-size:15px;
-  line-height:1.55;
+  line-height:1.62;
   min-height:100vh;
 }
 a{color:var(--link);}
 a:hover{color:var(--accent-dark);}
-
 .site-header{
   max-width:900px;
   margin:0 auto;
@@ -47,7 +46,6 @@ nav.main-nav a.active{
   text-decoration:underline;
   text-underline-offset:4px;
 }
-
 .page-title{
   font-size:32px;
   line-height:1.18;
@@ -68,13 +66,11 @@ nav.main-nav a.active{
   border-top:2px solid var(--rule);
   margin:0;
 }
-
 @media (max-width:760px){
   .site-header{padding:18px 24px 0;}
   .page-title{font-size:26px;}
   nav.main-nav ul{gap:14px;flex-wrap:wrap;}
 }
-
 .content-column{
   max-width:900px;
   margin:0 auto;
@@ -83,7 +79,6 @@ nav.main-nav a.active{
 @media (max-width:760px){
   .content-column{padding:16px 24px 32px;}
 }
-
 .eyebrow{
   font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
   font-size:11px;
@@ -97,34 +92,30 @@ nav.main-nav a.active{
   font-weight:700;
   color:var(--dark);
   font-size:16px;
-  margin:18px 0 3px;
+  margin:22px 0 4px;
 }
 .content-column p{
-  margin:0 0 12px;
+  margin:0 0 16px;
   max-width:720px;
 }
 .content-column p:first-of-type{margin-top:0;}
-
 .quote-line{
-  margin:0 0 12px;
+  margin:0 0 16px;
   max-width:720px;
   font-style:italic;
 }
-
 .teacher-photo{
   width:150px;
   display:block;
   margin:8px 0 12px;
   border-radius:2px;
 }
-
 .trademark-note{
   font-size:11.5px;
   color:#7a7a7a;
   margin-top:16px;
   max-width:720px;
 }
-
 em.meeting-time{
   font-style:italic;
   font-weight:700;
