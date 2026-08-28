@@ -33,7 +33,7 @@ nav.main-nav ul{
   padding:0;
 }
 nav.main-nav a{
-  font-family: 'Karla','Helvetica Neue',Arial,sans-serif;
+  font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
   font-size:12.5px;
   font-weight:700;
   letter-spacing:0.14em;
@@ -85,7 +85,7 @@ nav.main-nav a.active{
 }
 
 .eyebrow{
-  font-family: 'Karla','Helvetica Neue',Arial,sans-serif;
+  font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
   font-size:12.5px;
   font-weight:700;
   letter-spacing:0.14em;
@@ -124,43 +124,6 @@ nav.main-nav a.active{
   margin-top:28px;
   max-width:720px;
 }
-
-.share-block{
-  margin-top:44px;
-}
-.share-label{
-  font-family: 'Karla','Helvetica Neue',Arial,sans-serif;
-  font-size:12px;
-  font-weight:700;
-  letter-spacing:0.1em;
-  text-transform:uppercase;
-  color:#8a8a8a;
-  margin-bottom:10px;
-}
-.share-buttons{
-  display:flex;
-  gap:8px;
-}
-.share-buttons a{
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-  padding:6px 14px;
-  background:#fff;
-  border-radius:3px;
-  font-family: 'Karla','Helvetica Neue',Arial,sans-serif;
-  font-size:13px;
-  font-weight:600;
-  color:#4a4a4a;
-  text-decoration:none;
-  box-shadow:0 1px 2px rgba(0,0,0,0.12);
-}
-.share-buttons a:hover{color:var(--accent-dark);}
-.share-buttons .dot{
-  width:8px;height:8px;border-radius:50%;
-}
-.share-buttons .fb .dot{background:#3b5998;}
-.share-buttons .x .dot{background:#111;}
 
 em.meeting-time{
   font-style:italic;
