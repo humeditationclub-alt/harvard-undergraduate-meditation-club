@@ -3,7 +3,7 @@
   --rule: #b7c3ea;
   --text: rgb(89, 89, 89);
   --dark: #3c3c3c;
-  --accent: #85af9f;
+  --accent: rgb(91, 168, 158);
   --accent-dark: #5f8c7c;
   --link: #4f7a9c;
 }
@@ -21,7 +21,7 @@ a{color:var(--link);}
 a:hover{color:var(--accent-dark);}
 
 .site-header{
-  max-width:900px;
+  max-width:800px;
   margin:0 auto;
   padding:34px 40px 0;
 }
@@ -49,7 +49,7 @@ nav.main-nav a.active{
 }
 
 .page-title{
-  font-size:46px;
+  font-size:40px;
   line-height:1.18;
   font-weight:500;
   letter-spacing:0.03em;
