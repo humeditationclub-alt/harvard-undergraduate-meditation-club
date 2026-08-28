@@ -1,0 +1,169 @@
+:root{
+  --bg: rgb(210, 219, 243);
+  --rule: #b7c3ea;
+  --text: rgb(89, 89, 89);
+  --dark: #3c3c3c;
+  --accent: #85af9f;
+  --accent-dark: #5f8c7c;
+  --link: #4f7a9c;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
+  font-size:17px;
+  line-height:1.7;
+  min-height:100vh;
+}
+a{color:var(--link);}
+a:hover{color:var(--accent-dark);}
+
+.site-header{
+  padding:34px 64px 0;
+}
+nav.main-nav ul{
+  list-style:none;
+  display:flex;
+  gap:30px;
+  margin:0 0 40px;
+  padding:0;
+}
+nav.main-nav a{
+  font-family: 'Karla','Helvetica Neue',Arial,sans-serif;
+  font-size:12.5px;
+  font-weight:700;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--dark);
+  text-decoration:none;
+}
+nav.main-nav a:hover{color:var(--accent-dark);}
+nav.main-nav a.active{
+  color:var(--accent-dark);
+  text-decoration:underline;
+  text-underline-offset:4px;
+}
+
+.page-title{
+  font-size:52px;
+  line-height:1.18;
+  font-weight:500;
+  letter-spacing:0.03em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin:0 0 18px;
+  max-width:1000px;
+}
+.tagline{
+  font-size:16px;
+  color:#555;
+  margin:0 0 22px;
+}
+.header-rule{
+  border:none;
+  border-top:2px solid var(--rule);
+  margin:0;
+}
+
+@media (max-width:760px){
+  .site-header{padding:26px 24px 0;}
+  .page-title{font-size:34px;}
+  nav.main-nav ul{gap:16px;flex-wrap:wrap;}
+}
+
+.content-column{
+  max-width:760px;
+  margin:0 auto;
+  padding:56px 64px 90px 388px;
+}
+@media (max-width:1100px){
+  .content-column{padding-left:64px;}
+}
+@media (max-width:760px){
+  .content-column{padding:36px 24px 60px;}
+}
+
+.eyebrow{
+  font-family: 'Karla','Helvetica Neue',Arial,sans-serif;
+  font-size:12.5px;
+  font-weight:700;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--accent-dark);
+  margin:0 0 18px;
+}
+.subhead{
+  font-weight:700;
+  color:var(--dark);
+  font-size:19px;
+  margin:30px 0 4px;
+}
+.content-column p{
+  margin:0 0 20px;
+  max-width:640px;
+}
+.content-column p:first-of-type{margin-top:0;}
+
+.quote-line{
+  margin:0 0 20px;
+  max-width:640px;
+}
+
+.teacher-photo{
+  width:244px;
+  display:block;
+  margin:18px 0 22px;
+  border-radius:2px;
+}
+
+.trademark-note{
+  font-size:13px;
+  color:#7a7a7a;
+  margin-top:28px;
+  max-width:640px;
+}
+
+.share-block{
+  margin-top:44px;
+}
+.share-label{
+  font-family: 'Karla','Helvetica Neue',Arial,sans-serif;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:#8a8a8a;
+  margin-bottom:10px;
+}
+.share-buttons{
+  display:flex;
+  gap:8px;
+}
+.share-buttons a{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 14px;
+  background:#fff;
+  border-radius:3px;
+  font-family: 'Karla','Helvetica Neue',Arial,sans-serif;
+  font-size:13px;
+  font-weight:600;
+  color:#4a4a4a;
+  text-decoration:none;
+  box-shadow:0 1px 2px rgba(0,0,0,0.12);
+}
+.share-buttons a:hover{color:var(--accent-dark);}
+.share-buttons .dot{
+  width:8px;height:8px;border-radius:50%;
+}
+.share-buttons .fb .dot{background:#3b5998;}
+.share-buttons .x .dot{background:#111;}
+
+em.meeting-time{
+  font-style:italic;
+  font-weight:700;
+  text-decoration:underline;
+}
