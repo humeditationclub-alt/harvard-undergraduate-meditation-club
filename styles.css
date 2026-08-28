@@ -74,15 +74,11 @@ nav.main-nav a.active{
 }
 
 .content-column{
-  max-width:760px;
-  margin:0 auto;
-  padding:56px 64px 90px 388px;
-}
-@media (max-width:1100px){
-  .content-column{padding-left:64px;}
+  max-width:640px;
+  padding:48px 64px 90px;
 }
 @media (max-width:760px){
-  .content-column{padding:36px 24px 60px;}
+  .content-column{padding:32px 24px 56px;}
 }
 
 .eyebrow{
@@ -109,6 +105,7 @@ nav.main-nav a.active{
 .quote-line{
   margin:0 0 20px;
   max-width:640px;
+  font-style:italic;
 }
 
 .teacher-photo{
