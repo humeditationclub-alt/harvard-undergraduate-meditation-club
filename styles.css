@@ -55,7 +55,6 @@ nav.main-nav a.active{
   letter-spacing:0.03em;
   text-transform:uppercase;
   color:var(--accent);
-  -webkit-text-stroke:0.4px rgb(163,54,102);
   margin:0 0 10px;
   max-width:1000px;
 }
